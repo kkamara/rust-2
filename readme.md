@@ -83,6 +83,20 @@ cargo doc
 cargo d
 ```
 
+## Run a file in the src/bin folder
+
+```bash
+cd variables-and-mutability
+cargo r --bin intro_to_variables
+```
+
+## Run src/main.rs when src/bin files are present
+
+```bash
+cd variables-and-mutability
+cargo r --bin variables-and-mutability
+```
+
 ## Misc.
 
 See "Rust 1" at https://github.com/kkamara/rust .
