@@ -38,7 +38,7 @@ being unused.
 const TOUCHDOWN_POINTS: i8 = 6;
 
 fn main() {
-    let season: String = String::from("Spring");
+    let season: &'static str = "Spring";
     #[allow(unused_assignments)]
     let mut points_scored: i8 = 28;
     points_scored = 35;
