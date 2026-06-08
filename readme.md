@@ -8,6 +8,10 @@ This repository follows Boris Paskhaver's course "Learn to code with Rust" at ht
 
 ```
 
+## Requirements
+
+* [Rust](https://rust-lang.org/learn/get-started)
+
 ## Running the app
 
 ```bash
