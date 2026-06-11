@@ -2,7 +2,10 @@ fn main() {
     let addition = 5 + 4;
     let subtraction = 10 - 6;
     let multiplication = 3 * 4;
-    println!("Addition: {}, Subtraction: {}, Multiplication: {}", addition, subtraction, multiplication);
+    println!(
+        "Addition: {}, Subtraction: {}, Multiplication: {}",
+        addition, subtraction, multiplication
+    );
 
     let floor_division = 5 / 3;
     println!("Floor division: {floor_division}");
