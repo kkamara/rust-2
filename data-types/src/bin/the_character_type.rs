@@ -5,6 +5,8 @@ fn main() {
     // * Windows: Windows Key + .
     let emoji: char = '🎧';
 
+    println!("{}", emoji);
+
     println!(
         "{} {}",
         first_initial.is_alphabetic(),
